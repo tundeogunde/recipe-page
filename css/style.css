@@ -82,10 +82,6 @@ h2.sub_head {
   color: #854632;
 }
 
-.lists {
-  /* list-style-position: inside; */
-}
-
 ul.lists li,
 ol.lists li {
   padding: 5px 10px;
