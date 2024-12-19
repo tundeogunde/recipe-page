@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f3e6d8;
+  color: #302d2c;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 80px;
+  width: 560px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.container img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.container h1 {
+  font-family: "Young Serif";
+  font-size: 30px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.container p {
+  font-family: "Outfit";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.preparation_time_container {
+  margin-top: 20px;
+  background-color: #fff5fa;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.preparation_time_container h2 {
+  font-family: "Outfit";
+  font-size: 16px;
+  color: #7b284f;
+  margin-bottom: 10px;
+}
+
+.preparation_time_container ul {
+  list-style-position: inside;
+}
+
+.preparation_time_container li {
+  padding: 5px 5px;
+  font-family: "Outfit";
+  font-size: 14px;
+}
+
+.preparation_time_container li span {
+  font-weight: bold;
+}
+
+h2.sub_head {
+  font-family: "Young Serif";
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 400;
+  color: #854632;
+}
+
+.lists {
+  /* list-style-position: inside; */
+}
+
+ul.lists li,
+ol.lists li {
+  padding: 5px 10px;
+  font-family: "Outfit";
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+ol.lists li::marker {
+  font-weight: bold;
+  color: #7b284f;
+}
+
+ol.lists li span {
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  margin: 20px 0px 0px 0px;
+  border-top: 1px solid #e9e8e6;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  font-family: "Outfit";
+  font-size: 14px;
+  border-bottom: 1px solid #e9e8e6 !important;
+}
+
+tr:last-child {
+  border-bottom: none !important;
+}
+
+td {
+  padding: 10px 26px;
+}
+
+td:last-child {
+  border-bottom: 0px;
+}
+
+.table_value {
+  font-weight: bold;
+  color: #7b284f;
+}
+
+.attribution {
+  font-family: "Outfit";
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .container {
+    margin-top: 0px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 0px;
+  }
+
+  .container img {
+    border-radius: 0px;
+  }
+
+  .responsive_container {
+    padding: 0px 25px;
+  }
+}
